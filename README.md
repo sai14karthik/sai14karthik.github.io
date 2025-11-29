@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A clean, professional academic portfolio website for Sai Karthik Nallamothu, optimized for SEO and ready for deployment on GitHub Pages.
+A clean, professional academic portfolio website based on [Jon Barron's website template](https://github.com/jonbarron/jonbarron.github.io), customized for Sai Karthik Nallamothu.
 
 ## Features
 
@@ -11,32 +11,29 @@ A clean, professional academic portfolio website for Sai Karthik Nallamothu, opt
 - ✅ Easy to host on GitHub Pages
 - ✅ Print-friendly styles
 
-## Deployment Status
+## Repository
 
-✅ **Repository Created**: https://github.com/sai14karthik/sai14karthik.github.io  
-✅ **Files Pushed**: All portfolio files have been committed and pushed to the repository
+**GitHub Repository**: https://github.com/sai14karthik/skportfolio
+
+## Deployment to GitHub Pages
 
 ### Enable GitHub Pages
 
-Since your repository is named `sai14karthik.github.io`, GitHub Pages should automatically be enabled, but verify:
-
-1. Go to your repository: https://github.com/sai14karthik/sai14karthik.github.io
+1. Go to your repository: https://github.com/sai14karthik/skportfolio
 2. Click on **Settings** → **Pages**
-3. Under **Source**, ensure it's set to **Deploy from a branch**
+3. Under **Source**, select **Deploy from a branch**
 4. Choose **main** branch and **/ (root)** folder
 5. Click **Save**
 
-**Your site will be live at**: `https://sai14karthik.github.io/`
+### Your Site Will Be Live At
 
-Note: It may take a few minutes (up to 10 minutes) for GitHub Pages to build and deploy your site after the first push.
+**https://sai14karthik.github.io/skportfolio/**
 
-### Option 2: Using GitHub Desktop
+Note: It may take 5-10 minutes for GitHub Pages to build and deploy your site after enabling it.
 
-1. Open GitHub Desktop
-2. Create a new repository
-3. Copy the files to the repository folder
-4. Commit and push
-5. Enable GitHub Pages in repository settings
+## Local Development
+
+Simply open `index.html` in a web browser to view locally. No build process required!
 
 ## Customization
 
@@ -77,10 +74,8 @@ This portfolio includes:
 4. **Semantic HTML**: Proper heading hierarchy
 5. **Canonical URL**: Prevents duplicate content issues
 6. **Mobile Responsive**: Important for Google rankings
-
-## Local Development
-
-Simply open `index.html` in a web browser to view locally. No build process required!
+7. **Sitemap.xml**: For search engine indexing
+8. **Robots.txt**: Search engine crawler instructions
 
 ## Browser Support
 
@@ -91,9 +86,8 @@ Simply open `index.html` in a web browser to view locally. No build process requ
 
 ## License
 
-Feel free to use this template for your own portfolio!
+This website is based on Jon Barron's template. Feel free to use this template for your own portfolio!
 
 ## Contact
 
 For questions or issues, please contact: nsai14karthik@gmail.com
-
