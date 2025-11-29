@@ -1,0 +1,27 @@
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep the source .tex file but ignore build artifacts
+rundown/*.aux
+rundown/*.fdb_latexmk
+rundown/*.fls
+rundown/*.log
+rundown/*.out
+rundown/*.synctex.gz
+
