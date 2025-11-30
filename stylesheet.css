@@ -160,12 +160,12 @@ body.dark-mode .name {
 }
 
 body.dark-mode a {
-    color: #4a9eff;
+    color: #ffa64a;
 }
 
 body.dark-mode a:hover,
 body.dark-mode a:focus {
-    color: #ffa64a;
+    color: #ffb84d;
 }
 
 body.dark-mode strong {
