@@ -17,8 +17,11 @@
     <meta property="og:description" content="Pursuing M.S. in Computer Science at UCF">
     <meta property="og:url" content="https://sai14karthik.github.io/skportfolio/">
     <meta property="og:image" content="https://sai14karthik.github.io/skportfolio/data/images/myimage.png">
-    <meta property="og:image:alt" content="Sai Karthik Nallamothu">
+    <meta property="og:image:alt" content="Sai Karthik Nallamothu - Professional Photo">
     <meta property="og:image:secure_url" content="https://sai14karthik.github.io/skportfolio/data/images/myimage.png">
+    <meta name="copyright" content="© Sai Karthik Nallamothu. All rights reserved.">
+    <meta name="author" content="Sai Karthik Nallamothu">
+    <meta name="image" content="https://sai14karthik.github.io/skportfolio/data/images/myimage.png">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -68,6 +71,31 @@
     }
     </script>
     
+    <!-- Additional Image Copyright Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "url": "https://sai14karthik.github.io/skportfolio/data/images/myimage.png",
+      "name": "Sai Karthik Nallamothu - Professional Photo",
+      "description": "Professional photograph of Sai Karthik Nallamothu",
+      "copyrightHolder": {
+        "@type": "Person",
+        "name": "Sai Karthik Nallamothu",
+        "email": "nsai14karthik@gmail.com"
+      },
+      "copyrightYear": "2025",
+      "copyrightNotice": "© 2025 Sai Karthik Nallamothu. All rights reserved. This image is the exclusive property of Sai Karthik Nallamothu.",
+      "creditText": "Photo: Sai Karthik Nallamothu",
+      "creator": {
+        "@type": "Person",
+        "name": "Sai Karthik Nallamothu"
+      },
+      "license": "https://sai14karthik.github.io/skportfolio/",
+      "acquireLicensePage": "https://sai14karthik.github.io/skportfolio/"
+    }
+    </script>
+    
     <link rel="canonical" href="https://sai14karthik.github.io/">
     <link rel="sitemap" type="application/xml" href="https://sai14karthik.github.io/sitemap.xml">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -107,7 +135,12 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <img src="data/images/myimage.png" alt="Sai Karthik Nallamothu" title="Sai Karthik Nallamothu - Copyright © Sai Karthik Nallamothu" style="width:100%;max-width:100%;object-fit: cover; border-radius: 5px;" class="hoverZoomLink">
+                <figure itemscope itemtype="https://schema.org/ImageObject">
+                  <img src="data/images/myimage.png" alt="Sai Karthik Nallamothu - Professional Photo" title="© Sai Karthik Nallamothu. All rights reserved." itemprop="image" style="width:100%;max-width:100%;object-fit: cover; border-radius: 5px;" class="hoverZoomLink">
+                  <meta itemprop="copyrightHolder" content="Sai Karthik Nallamothu">
+                  <meta itemprop="copyrightNotice" content="© Sai Karthik Nallamothu. All rights reserved.">
+                  <meta itemprop="creditText" content="Sai Karthik Nallamothu">
+                </figure>
               </td>
             </tr>
           </tbody></table>
