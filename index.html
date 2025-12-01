@@ -258,9 +258,11 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:center;font-size:small;">
-                  This website is based on <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron's website template</a>.
+                  Thanks to <a href="https://github.com/jonbarron/jonbarron.github.io">Dr. Jon Barron</a> for the beautiful website template.
                   <br>
                   Last updated: <span id="last-updated"></span>
+                  <br>
+                  &copy; <span id="copyright-year"></span> Sai Karthik Nallamothu. All rights reserved.
                 </p>
               </td>
             </tr>
@@ -331,6 +333,12 @@
         const lastModified = new Date(document.lastModified);
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
         lastUpdated.textContent = lastModified.toLocaleDateString('en-US', options);
+      }
+      
+      // Set copyright year
+      const copyrightYear = document.getElementById('copyright-year');
+      if (copyrightYear) {
+        copyrightYear.textContent = new Date().getFullYear();
       }
     </script>
   </body>
