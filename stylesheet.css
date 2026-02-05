@@ -108,10 +108,10 @@ strong {
 }
 
 h2 {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .papertitle {
