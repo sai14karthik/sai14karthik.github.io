@@ -224,3 +224,54 @@ body.dark-mode div[style*="background-color:#f0f0f0"] {
 body.dark-mode .internship-status {
     color: #ffd700; /* Yellow in dark mode */
 }
+
+/* Scrollable panels for Updates / Publications */
+.scroll-panel {
+    max-height: 140px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 4px 10px 4px 2px;
+    margin: 0;
+    border-left: 2px solid #ddd;
+    scrollbar-width: thin;
+    scrollbar-color: #bbb transparent;
+}
+
+.scroll-panel p {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.scroll-panel p:last-child {
+    margin-bottom: 0;
+}
+
+.scroll-panel::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scroll-panel::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scroll-panel::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 3px;
+}
+
+.scroll-panel::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+body.dark-mode .scroll-panel {
+    border-left-color: #444;
+    scrollbar-color: #666 transparent;
+}
+
+body.dark-mode .scroll-panel::-webkit-scrollbar-thumb {
+    background: #666;
+}
+
+body.dark-mode .scroll-panel::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
